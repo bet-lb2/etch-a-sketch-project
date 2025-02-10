@@ -6,14 +6,23 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
-#container {
-    width: 100px;
-    height: 100px;
+#gridContainer {
+    width:500px;
+    height: 500px;
     background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#change-grid {
+    padding: 10px 25px;
+    font-size: 1.25rem;
 }
